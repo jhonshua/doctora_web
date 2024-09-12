@@ -1,4 +1,33 @@
- .u-section-1 {
+
+@font-face {
+  font-family: 'Futura';
+  src: url('fonts/Futura.ttf') format('truetype');
+}
+
+/* Aplica la fuente Futura a todo el cuerpo */
+body {
+  font-family: Futura, sans-serif;
+}
+
+/* Estilos específicos para encabezados */
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+/* Estilos específicos para párrafos */
+p {
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Estilos específicos para enlaces */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.u-section-1 {
   background-image: none;
 }
 
@@ -84,12 +113,12 @@
   font-size: 3.75rem;
   text-shadow: -2px -2px 8px rgba(179,179,179,1);
   font-family: "Roboto Condensed", sans-serif;
-  margin: 97px -8px 0 35px;
+  margin: 70px 0 0 -48px;
 }
 
 .u-section-1 .u-text-5 {
   font-size: 1rem;
-  margin: 28px 70px 0 50px;
+  margin: 40px 84px 0 36px;
 }
 
 .u-section-1 .u-btn-1 {
@@ -99,7 +128,7 @@
   background-image: none;
   text-transform: uppercase;
   font-weight: 400;
-  margin: 77px auto 0 53px;
+  margin: 66px auto 0 96px;
   padding: 10px 17px 10px 15px;
 }
 
@@ -107,7 +136,7 @@
   min-height: 42px;
   height: auto;
   width: 480px;
-  margin: 40px auto 0;
+  margin: 66px -42px 0 auto;
 }
 
 .u-section-1 .u-container-layout-4 {
@@ -136,7 +165,7 @@
 .u-section-1 .u-text-6 {
   font-weight: 700;
   font-size: 0.875rem;
-  margin: 196px 171px 0 45px;
+  margin: 262px 166px 0 50px;
 }
 
 img.btn-whatsapp {
@@ -163,9 +192,8 @@ img.btn-whatsapp {
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    width: 940px;
-    margin-right: -11px;
-    margin-left: auto;
+    margin-top: 87px;
+    margin-bottom: -116px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -183,34 +211,54 @@ img.btn-whatsapp {
   }
 
   .u-section-1 .u-text-3 {
-    margin-right: 8px;
-    margin-left: 0;
+    width: auto;
+    margin-top: 110px;
+    margin-right: 30px;
+    margin-left: 35px;
   }
 
   .u-section-1 .u-text-4 {
-    margin-right: 0;
-    margin-left: 0;
+    width: auto;
+    font-size: 3rem;
+    margin-top: 54px;
+    margin-right: 8px;
+    margin-left: -29px;
   }
 
   .u-section-1 .u-text-5 {
-    margin-right: 27px;
-    margin-left: 7px;
-  }
-
-  .u-section-1 .u-btn-1 {
+    margin-top: 57px;
+    margin-right: 33px;
     margin-left: 0;
   }
 
+  .u-section-1 .u-btn-1 {
+    margin-top: 62px;
+    margin-left: 59px;
+  }
+
   .u-section-1 .u-group-2 {
-    width: 407px;
+    width: 314px;
+    margin-top: 70px;
+    margin-right: 79px;
+    margin-left: 14px;
     height: auto;
+  }
+
+  .u-section-1 .u-image-4 {
+    margin-top: 7px;
+    margin-right: 97px;
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-image-5 {
+    margin-top: -32px;
   }
 
   .u-section-1 .u-text-6 {
     width: auto;
-    margin-top: 157px;
-    margin-right: 57px;
-    margin-left: 73px;
+    margin-top: 239px;
+    margin-right: 51px;
+    margin-left: 79px;
   }
 }
 
@@ -220,11 +268,8 @@ img.btn-whatsapp {
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: 137px;
+    margin-top: 80px;
     margin-bottom: 60px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -275,26 +320,25 @@ img.btn-whatsapp {
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 727px;
+    min-height: 767px;
   }
 
   .u-section-1 .u-text-3 {
-    width: auto;
-    margin-top: 15px;
-    margin-right: 0;
+    margin-top: 45px;
+    margin-right: -19px;
+    margin-left: 19px;
   }
 
   .u-section-1 .u-text-4 {
-    width: auto;
-    margin-top: 40px;
-    margin-right: -3px;
-    margin-left: 3px;
+    font-size: 1.875rem;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 19px;
   }
 
   .u-section-1 .u-text-5 {
     width: auto;
-    margin-top: 38px;
-    margin-left: 0;
+    margin-top: 34px;
     margin-right: 0;
   }
 
@@ -311,31 +355,28 @@ img.btn-whatsapp {
   }
 
   .u-section-1 .u-text-6 {
-    margin: 196px 28px -128px 75px;
+    margin: 280px 40px -74px 63px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1378px;
+    min-height: 1356px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: 84px;
-    margin-bottom: -295px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    margin-top: 79px;
+    margin-bottom: -167px;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 623px;
+    min-height: 541px;
   }
 
   .u-section-1 .u-image-1 {
     width: 489px;
     height: 597px;
-    margin-top: 623px;
+    margin-top: 503px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -371,7 +412,7 @@ img.btn-whatsapp {
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 1041px;
+    min-height: 903px;
   }
 
   .u-section-1 .u-text-3 {
@@ -381,23 +422,17 @@ img.btn-whatsapp {
   }
 
   .u-section-1 .u-text-4 {
-    margin-top: 60px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 63px;
+    margin-right: 184px;
+    margin-left: 17px;
   }
 
   .u-section-1 .u-text-5 {
-    margin-top: 67px;
+    margin-top: 47px;
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 35px;
-  }
-
-  .u-section-1 .u-group-2 {
-    width: 294px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 53px;
   }
 
   .u-section-1 .u-container-layout-4 {
@@ -412,12 +447,12 @@ img.btn-whatsapp {
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1375px;
+    min-height: 1312px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    width: 352px;
-    margin: 115px auto 41px -12px;
+    margin-top: 70px;
+    margin-bottom: 0;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -426,16 +461,14 @@ img.btn-whatsapp {
 
   .u-section-1 .u-image-1 {
     width: 340px;
-    height: 520px;
-    margin-top: 518px;
+    height: 568px;
+    margin-top: 417px;
     margin-right: 0;
   }
 
   .u-section-1 .u-group-1 {
     width: 352px;
-    margin-top: -12px;
-    margin-right: -8px;
-    margin-bottom: -813px;
+    margin: -12px -6px -760px;
   }
 
   .u-section-1 .u-image-2 {
@@ -459,7 +492,7 @@ img.btn-whatsapp {
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 648px;
+    min-height: 670px;
   }
 
   .u-section-1 .u-text-3 {
@@ -469,8 +502,9 @@ img.btn-whatsapp {
   }
 
   .u-section-1 .u-text-4 {
-    font-size: 1.875rem;
     margin-top: 28px;
+    margin-left: 0;
+    margin-right: 1px;
   }
 
   .u-section-1 .u-text-5 {
@@ -485,12 +519,14 @@ img.btn-whatsapp {
   }
 
   .u-section-1 .u-group-2 {
-    margin-top: 48px;
-    margin-right: 23px;
+    margin-top: 30px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-1 .u-text-6 {
-    margin: 808px 27px -142px 122px;
+    margin: 752px 34px -68px 115px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 684px;
@@ -552,16 +588,11 @@ img.btn-whatsapp {
   }
 
   .u-section-2 .u-video-1 {
-    height: 192px;
-    margin-top: 201px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
-  .u-section-2 .embed-responsive-1 {
-    left: -39%;
-    top: -39%;
+    height: 187px;
+    width: 333px;
+    margin-top: 182px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }.menu {
 	position: fixed;

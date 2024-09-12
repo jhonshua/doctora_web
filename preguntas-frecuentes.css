@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'Futura';
+  src: url('fonts/Futura.ttf') format('truetype');
+}
+
+/* Aplica la fuente Futura a todo el cuerpo */
+body {
+  font-family: Futura, sans-serif;
+}
+
+/* Estilos específicos para encabezados */
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+/* Estilos específicos para párrafos */
+p {
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Estilos específicos para enlaces */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
  .u-section-1 {
   background-image: none;
 }
