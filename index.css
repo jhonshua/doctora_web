@@ -1,7 +1,7 @@
-
-@font-face {
+ 
+ @font-face {
   font-family: 'Futura';
-  src: url('fonts/Futura.ttf') format('truetype');
+  src: url('futura/futur.ttf') format('truetype');
 }
 
 /* Aplica la fuente Futura a todo el cuerpo */
@@ -26,10 +26,27 @@ a {
   color: #007bff;
   text-decoration: none;
 }
-
-.u-section-1 {
+ .u-section-1 {
   background-image: none;
 }
+
+img.btn-whatsapp {
+  display: block !important;
+  position: fixed;
+  z-index: 9999999;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  border-radius:100px !important;
+  }
+  
+  img.btn-whatsapp:hover{
+  border-radius:100px !important;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1); 
+  -moz-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+  box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+  transition-duration: 1s;
+  } 
 
 .u-section-1 .u-sheet-1 {
   min-height: 1037px;
@@ -167,24 +184,6 @@ a {
   font-size: 0.875rem;
   margin: 262px 166px 0 50px;
 }
-
-img.btn-whatsapp {
-  display: block !important;
-  position: fixed;
-  z-index: 9999999;
-  bottom: 20px;
-  right: 20px;
-  cursor: pointer;
-  border-radius:100px !important;
-  }
-  
-  img.btn-whatsapp:hover{
-  border-radius:100px !important;
-  -webkit-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1); 
-  -moz-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
-  box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
-  transition-duration: 1s;
-  } 
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
@@ -451,8 +450,8 @@ img.btn-whatsapp {
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: 70px;
-    margin-bottom: 0;
+    width: 340px;
+    margin: 70px 0 0;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -492,7 +491,7 @@ img.btn-whatsapp {
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 670px;
+    min-height: 671px;
   }
 
   .u-section-1 .u-text-3 {
@@ -519,10 +518,26 @@ img.btn-whatsapp {
   }
 
   .u-section-1 .u-group-2 {
+    width: 340px;
     margin-top: 30px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-image-4 {
+    margin-top: 5px;
+    margin-right: auto;
+  }
+
+  .u-section-1 .u-image-5 {
+    margin-top: -31px;
+    margin-left: 53px;
+  }
+
+  .u-section-1 .u-image-6 {
+    margin-top: -31px;
+    margin-right: 60px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-text-6 {
@@ -588,12 +603,17 @@ img.btn-whatsapp {
   }
 
   .u-section-2 .u-video-1 {
-    height: 187px;
-    width: 333px;
-    margin-top: 182px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 194px;
+    margin-top: 164px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
+
+  /* .u-section-2 .embed-responsive-1 {
+    left: -39%;
+    top: -39%;
+  } */
 }.menu {
 	position: fixed;
   	z-index: 1;

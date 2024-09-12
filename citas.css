@@ -1,6 +1,8 @@
-@font-face {
+
+ 
+ @font-face {
   font-family: 'Futura';
-  src: url('fonts/Futura.ttf') format('truetype');
+  src: url('futura/futur.ttf') format('truetype');
 }
 
 /* Aplica la fuente Futura a todo el cuerpo */
@@ -26,6 +28,28 @@ a {
   text-decoration: none;
 }
  .u-section-1 {
+  background-image: none;
+}
+
+img.btn-whatsapp {
+  display: block !important;
+  position: fixed;
+  z-index: 9999999;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  border-radius:100px !important;
+  }
+  
+  img.btn-whatsapp:hover{
+  border-radius:100px !important;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1); 
+  -moz-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+  box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+  transition-duration: 1s;
+  } 
+
+.u-section-1 {
   background-image: none;
 }
 
@@ -101,24 +125,6 @@ a {
   margin: 173px auto 0;
   padding: 26px 56px 26px 54px;
 }
-
-img.btn-whatsapp {
-  display: block !important;
-  position: fixed;
-  z-index: 9999999;
-  bottom: 20px;
-  right: 20px;
-  cursor: pointer;
-  border-radius:100px !important;
-  }
-  
-  img.btn-whatsapp:hover{
-  border-radius:100px !important;
-  -webkit-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1); 
-  -moz-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
-  box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
-  transition-duration: 1s;
-  } 
 
 @media (max-width: 1199px) {
   .u-section-1 .u-group-1 {
